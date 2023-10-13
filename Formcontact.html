@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+    <form method="post" class="contenedor">
+     <h2>Contactanos </h2>
+     <span>Escribenos y en breve nos pondremos en contacto contigo</span><br><br>
+    
+         <div class="elemento">
+            <label for="nombres">Nombres:</label> <span>*</span>
+            <br><input id="nombres" type="text" placeholder="Escribe tu nombre" required="true"></P>
+
+            <label for="apellidos">Apellidos:</label> <span> *</span><br>
+            <input id="apellidos" type="text" placeholder="Escribe tus apellidos" required="true"></p>
+
+            <label for="email">Email:</label> <span> *</span><br>
+            <input id="email"  type="email" placeholder="Escribe tu email"><br>
+
+            <label for="edad">Edad:</label><br>
+            <input id="edad" type="number" placeholder="Escribe tu edad"><br>
+
+            <label for="Comentario">Comentario:</label><br>
+            <textarea name="Comentario" id="Comentario" placeholder="Escribe un comentario" cols="22" rows="4"></textarea>
+            <br>
+
+            <input type="submit" value="enviar">
+            <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"><br>
+  </div>
+    
+</form>
+</body>
+</html>
